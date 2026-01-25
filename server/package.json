@@ -1,0 +1,15 @@
+{
+  "name": "ring-toss-backend",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.79.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "bs58": "^5.0.0",
+    "tweetnacl": "^1.0.3"
+  }
+}

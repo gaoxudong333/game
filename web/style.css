@@ -1,0 +1,5 @@
+body{font-family:Arial,Helvetica,sans-serif;padding:20px;background:#f6f9fc}
+.container{max-width:900px;margin:0 auto;background:#fff;padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+button{background:#4a90e2;color:#fff;border:none;padding:8px 12px;border-radius:6px}
+.hint{color:#777}
+#log{margin-top:12px}

@@ -47,7 +47,8 @@ button.disabled{background:#bbb; cursor:not-allowed}
   margin:12px 0;
   background: linear-gradient(#87cefa, #e6f7ff);
 }
-.controls{margin-top:8px}
-#log{margin-top:12px;font-size:14px;color:#333;max-height:140px;overflow:auto;border-top:1px dashed #eee;padding-top:8px}
+.controls{margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#log{margin-top:12px;font-size:14px;color:#333;max-height:160px;overflow:auto;border-top:1px dashed #eee;padding-top:8px}
 .info{color:#2a7f2a}
 .warning{color:#c44}
+small.hint{color:var(--muted)}

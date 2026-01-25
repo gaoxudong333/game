@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>套圈游戏 — Phantom + USDC (devnet) Demo</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>套圈游戏 — 钱包与购买示例（devnet）</h1>
+    <p class="hint">注意：此页面为示例，默认连接 devnet，USDC mint 为占位符，请在 README 中查看如何替换</p>
+
+    <div id="wallet-area">
+      <button id="connect-btn">连接 Phantom</button>
+      <div id="wallet-info">未连接</div>
+    </div>
+
+    <div id="balance-area">
+      <label>购买积分（1积分 = 1 USDC）：<input id="buy-amount" type="number" min="1" value="1" /></label>
+      <button id="buy-btn" disabled>支付 USDC 购买积分</button>
+      <div id="token-balance">USDC 余额: -</div>
+    </div>
+
+    <div id="log"></div>
+  </div>
+
+  <script type="module" src="./game.js"></script>
+</body>
+</html>

@@ -13,7 +13,7 @@
     <div class="toolbar">
       <div id="wallet-area">
         <button id="connect-btn" class="disabled" disabled>连接 Phantom（未启用）</button>
-        <span class="muted">钱包/支付功能尚未实现</span>
+        <span class="muted">钱包/支付功能尚未实现（演示版）</span>
       </div>
 
       <div id="buy-area">
@@ -30,6 +30,8 @@
 
     <div class="controls">
       <button id="reset-btn">重置积分</button>
+      <button id="replay-btn">回放上一投掷</button>
+      <label>回放速度：<input id="replay-speed" type="range" min="0.25" max="2" step="0.25" value="1"></label>
       <p>操作：左键点击并拖拽圈圈，松开投掷。套中马耳朵为胜利 +2 分，未套中为失败 -1 分（本地显示）。</p>
     </div>
 
