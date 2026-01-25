@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>套圈游戏 — 预览（GitHub Pages）</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>套圈游戏 — 预览</h1>
+
+    <div class="toolbar">
+      <div id="wallet-area">
+        <button id="connect-btn" class="disabled" disabled>连接 Phantom（未启用）</button>
+        <span class="muted">钱包/支付功能尚未实现</span>
+      </div>
+
+      <div id="buy-area">
+        <input id="buy-amount" type="number" min="1" value="1" />
+        <button id="buy-btn" class="disabled" disabled>购买积分（未接入）</button>
+      </div>
+
+      <div id="points-area">
+        积分：<span id="points">0</span>
+      </div>
+    </div>
+
+    <canvas id="game-canvas" width="900" height="520"></canvas>
+
+    <div class="controls">
+      <button id="reset-btn">重置积分</button>
+      <p>操作：左键点击并拖拽圈圈，松开投掷。套中马耳朵为胜利 +2 分，未套中为失败 -1 分（本地显示）。</p>
+    </div>
+
+    <div id="log"></div>
+  </div>
+
+  <script type="module" src="./preview.js"></script>
+</body>
+</html>
